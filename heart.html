@@ -1,0 +1,63 @@
+<html>
+    <head>
+
+    </head>
+    <div class="heart-shape">
+
+    </div>
+    <style>
+    
+    .heart-shape{
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        width: 200px;
+        height: 200px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        background-color: red;
+    }
+    .heart-shape:before,
+    .heart-shape:after{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        content: '';
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+        background-color: red;
+    }
+    .heart-shape:before{
+        
+        bottom: 0px;
+        left: -100px;
+    }
+    .heart-shape:after{
+        
+        top: -100px;
+        right: 0px;
+    }
+    .final{
+        margin-left: 600px;
+    }
+    footer{
+            margin-top: 400px;
+        }
+    </style>
+    <body>
+        <h1> Esto es un simple detalle</h1> 
+        <h2> Tendrás más pero tendrás que esperar un poquito...</h2>
+        <h2 class="final"> Espero que te haya gustado, porque lo he hecho con todo el cariño</h3>
+        <h2 class="final"> De momento esto es solo la punta del iceberg, se paciente jeje <img src="imagen_2.gif"/></h2>
+
+        <a href = "index.html"><h2 class="final"> Vuelve al principio siempre que quieras pulsandome </h2> </a>
+    </body>
+    <footer>
+        <p> Todos los derechos reservados: Para mi chica Naira, sorpresa realizada por Juan Esteban  </p>
+    </footer>
+</html>
